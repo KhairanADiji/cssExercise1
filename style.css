@@ -1,0 +1,36 @@
+*{
+    background-color: white;
+    padding: 5px;
+}
+
+div{
+    width: 700px;
+}
+
+ul{
+    color: red;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+li{
+    color: blue;
+}
+
+.parent{
+    background-color: lavender;
+}
+
+.child{
+    color: green;
+}
+
+#ulist{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+#olist{
+    background-color: bisque;
+    list-style: square;
+}

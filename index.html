@@ -5,51 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Likes and Whatnot</title>
-
-    <style>
-        *{
-            padding: 10px;
-        }
-
-        ul{
-            color: red;
-            background-color: yellow;
-            border: 5px solid red;
-        }
-
-        li{
-            color: violet;
-        }
-
-        .parent{
-            background-color: lavender;
-        }
-
-        .child{
-            color: purple;
-        }
-
-        #ulist{
-            background-color: aquamarine;
-            border: 2px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <ul class="parent" id="ulist">
-        Likes
+    <div>
+        <h2>Likes</h2>
+     <ul class="parent" id="ulist">
         <li class="child">Books.</li>
         <li class="child">Music.</li>
         <li class="child">Anime.</li>
-    </ul>
+     </ul>
+    </div>
 
-    <ul class="parent">
-        Dislikes
+    <div>
+        <h2>Dislikes</h2>
+     <ol class="parent" id="olist">
         <li class="child">Inability to communicate.</li>
         <li class="child">Resistance to good change.</li>
         <li class="child">Lack of self-awareness.</li>
-    </ul>
+     </ol>
+   </div>
     
     
 </body>
